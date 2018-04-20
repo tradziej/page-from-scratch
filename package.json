@@ -1,0 +1,42 @@
+{
+  "name": "page-from-scratch",
+  "version": "0.0.1",
+  "description": "Use this to create new page from scratch",
+  "repository": "git@github.com:tradziej/page-from-scratch.git",
+  "author": "Tomasz Radziejewski <tomasz@radziejewski.pl>",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack -p --mode production",
+    "start": "yarn dev"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "dotenv-webpack": "^1.5.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "postcss": "^6.0.21",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-font-magician": "^2.1.1",
+    "postcss-loader": "^2.1.3",
+    "postcss-normalize": "^4.0.0",
+    "postcss-reporter": "^5.0.0",
+    "prettier": "1.11.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

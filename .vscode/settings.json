@@ -1,0 +1,22 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.validate": ["javascript"],
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "javascript.validate.enable": false,
+  "prettier.cssEnable": ["css", "scss"],
+  "prettier.eslintIntegration": true,
+  "prettier.jsonEnable": [],
+  "prettier.javascriptEnable": ["javascript"],
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "scss.validate": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true
+  },
+  "window.zoomLevel": -1
+}

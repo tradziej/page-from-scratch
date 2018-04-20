@@ -1,0 +1,17 @@
+/* Colors */
+
+@value primary: #138971;
+@value secondary: #89132b;
+@value dark: #333333;
+@value light: #bbbbbb;
+
+/* Fonts */
+
+@value primaryFontStyle: Helvetica, Arial, sans-serif;
+@value secondaryFontStyle: Helvetica, Arial, sans-serif;
+
+/* Breakpoints */
+
+@value smallScreen: screen and (min-width: 540px);
+@value mediumScreen: screen and (min-width: 690px);
+@value largeScreen: screen and (min-width: 980px);
